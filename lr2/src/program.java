@@ -13,13 +13,13 @@ public class program {
         double num1 = 2 * (1 + pow(x,2) + 3 * y) - 12 * pow(x,2) * y + PI;
         System.out.printf("Результат = %.2f\n", num1);
         System.out.print("\t\tЗАДАНИЕ 2\n");
-    System.out.print("Введите внешний радиус кольца: ");
+        System.out.print("Введите внешний радиус кольца: ");
         double r1 = in.nextDouble();
-    System.out.print("Введите внутренний радиус кольца: ");
+        System.out.print("Введите внутренний радиус кольца: ");
         double r2 = in.nextDouble();
         double num2 = PI * (r1 - r2);
-    System.out.printf("Площадь кольца = %.2f", num2);
-    in.close();
+        System.out.printf("Площадь кольца = %.2f", num2);
+        in.close();
 }
 
 
