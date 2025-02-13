@@ -14,9 +14,9 @@ public class program {
         System.out.printf("Результат = %.2f\n", num1);
         System.out.print("\t\tЗАДАНИЕ 2\n");
     System.out.print("Введите внешний радиус кольца: ");
-        int r1 = in.nextInt();
+        double r1 = in.nextDouble();
     System.out.print("Введите внутренний радиус кольца: ");
-        int r2 = in.nextInt();
+        double r2 = in.nextDouble();
         double num2 = PI * (r1 - r2);
     System.out.printf("Площадь кольца = %.2f", num2);
     in.close();
